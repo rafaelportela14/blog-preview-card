@@ -1,0 +1,99 @@
+body{
+    background-color: var(--primary);
+    font-family: 'Figtree', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction:column;
+    
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 380px;
+    box-shadow: 10px 10px 10px 5px black;
+    height:100%;
+    
+    margin: 20px;
+    width: 360px;
+    height: 580px;
+}
+
+.menu .card{
+    
+}
+
+.menu .card .informacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.menu .card .image-link img{
+    display: flex;
+    border-radius: 15px;
+}
+
+.menu .card .p-descricao{
+    color: var( --neutral-medium);
+    font-family: 16px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.menu .card .informacao .aprendendo {
+    display: flex;
+    background-color: var(--primary);
+    border-radius: 10px;
+    width: 100px;   
+    height: 30px;
+    font-size: 17px; 
+    font-weight: 800;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+}
+
+.menu .card .informacao .publicacao{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.menu .card .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.menu .card .title:hover{
+    color: var(--primary);
+    display: flex;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.menu .card .creator{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.menu .card .creator .avatar{
+    max-width: 40px;
+    margin-right: 18px;
+}
+
+.menu .card .creator .name{
+    font-weight: 800;
+
+}
